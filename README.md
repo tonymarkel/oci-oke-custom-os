@@ -3,8 +3,8 @@
 ## Objective
 Enable a custom RHEL-based Linux Image ready for use with OKE Node Pools. 
 
-[!NOTE]
-Please note, that Oracle, and specifically OKE, cannot offer support for this. You must provide your own validation testing in non-production environments.
+> [!NOTE]
+> Please note, that Oracle, and specifically OKE, cannot offer official support for these scripts. You must provide your own validation testing in non-production environments.
 
 ## High-level process
 1.	Import a RHEL-Based Linux image to OCI https://docs.oracle.com/en-us/iaas/Content/Compute/Tasks/imageimportexport.htm
