@@ -1,7 +1,7 @@
 # OKE Custom Node OS
 
 ## Objective
-Enable a custom RHEL-based Linux Image ready for use with OKE Node Pools.
+Enable a custom RHEL-based Linux Image ready for use with OKE Node Pools. Please note, that Oracle, and specifically OKE, cannot offer support for this. You must provide your own validation testing in non-production environments.
 
 ## High-level process
 1.	Import a RHEL-Based Linux image to OCI https://docs.oracle.com/en-us/iaas/Content/Compute/Tasks/imageimportexport.htm
@@ -14,7 +14,8 @@ Enable a custom RHEL-based Linux Image ready for use with OKE Node Pools.
 * [Import the Rocky Linux image as an OCI Custom Image from Object Storage](https://docs.oracle.com/en-us/iaas/Content/Compute/Tasks/custom-images-import.htm)
 
 ## Step 2: 
-[Launch an instance from the imported image using the included cloud-init.sh script])https://docs.oracle.com/en-us/iaas/Content/Compute/Tasks/launchinginstance.htm#shape-advanced-options]
+* [Launch an instance from the imported image using the included cloud-init.sh script](https://docs.oracle.com/en-us/iaas/Content/Compute/Tasks/launchinginstance.htm#shape-advanced-options)
+
 This creates a compute instance using the imported custom image with the following cloud-init script while creating the instance. This script configures the required yum repository and installs the OKE node packages.
 
 ## Step 3:
