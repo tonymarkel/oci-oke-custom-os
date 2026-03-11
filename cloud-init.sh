@@ -1,6 +1,8 @@
 # Copyright (c) 2026 Oracle and/or its affiliates.
-# Use of this script is not supported in any way by Oracle. 
-# This script is provided without warranties or conditions of any kind, either express or implied. 
+# Use of this script is not supported in any way 
+# by Oracle. This script is provided without 
+# warranties or conditions of any kind, either  
+# express or implied. 
 # See the LICENSE file for more details.
 
 #!/bin/bash
