@@ -1,11 +1,17 @@
-# Copyright (c) 2026 Oracle and/or its affiliates.
-# Use of this script is not supported in any way 
-# by Oracle. This script is provided without 
-# warranties or conditions of any kind, either  
-# express or implied. 
-# See the LICENSE file for more details.
-
 #!/bin/bash
+
+# Copyright (c) 2026 Oracle and/or its affiliates. All rights reserved.
+
+# OKE INSTALL SCRIPT
+# ------------------------------
+# This script is intended to be used as part of a 
+# custom image build process for OKE.
+
+# PLEASE NOTE, that Oracle, and specifically OKE, 
+# cannot offer official support for these scripts. 
+# You must provide your own validation and testing 
+# in non-production environments.
+
 set -xe
 set -o pipefail
 
