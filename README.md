@@ -4,6 +4,16 @@ Copyright (c) 2026 Oracle and/or its affiliates. All rights reserved.
 ## Objective
 Enable a custom RHEL-based Linux Image ready for use with OKE Node Pools. 
 
+## Prerequisites
+* An OCI Tenancy
+* Ability to create or modify an OKE cluster from the
+  * OCI command line interface
+  * Terraform
+  * Cluster API
+
+## Recommendation
+* An [image building pipeline](https://github.com/oracle-quickstart/oci-hpc-images) to automate steps 1-4 below.
+
 > [!NOTE]
 > Please note, that Oracle, and specifically OKE, cannot offer official support for these scripts. You must provide your own validation and testing in non-production environments.
 
