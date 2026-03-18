@@ -60,7 +60,13 @@ mkdir -p /etc/yum.repos.d
 yum_repo_setup
 yum install -y oci-oke-node-all-$kubernetes_version
 
+sudo dnf install https://dl.fedoraproject.org/pub/epel/epel-release-latest-9.noarch.rpm
+sudo dnf install snapd
+sudo systemctl enable --now snapd.socket
+sudo ln -s /var/lib/snapd/snap /snap
+sudo snap install oracle-cloud-agent --classic
 sudo dnf install -y iscsi-initiator-utils
 sudo dnf install -y device-mapper-multipath
+sudo systemctl enable --now multipathd
 
 rm -f $RPM_SPEC
