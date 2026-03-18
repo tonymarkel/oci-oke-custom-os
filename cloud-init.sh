@@ -60,4 +60,7 @@ mkdir -p /etc/yum.repos.d
 yum_repo_setup
 yum install -y oci-oke-node-all-$kubernetes_version
 
+sudo dnf install -y iscsi-initiator-utils
+sudo dnf install -y device-mapper-multipath
+
 rm -f $RPM_SPEC
