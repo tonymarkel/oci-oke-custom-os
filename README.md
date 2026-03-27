@@ -12,7 +12,7 @@ Enable a custom RHEL-based Linux Image ready for use with OKE Node Pools.
   * Cluster API
 
 ## Recommendation
-* An [image building pipeline](packer-example.md) to automate steps 1-4 below.
+* An [image building pipeline](example-packer-pipeline) to automate steps 1-4 below.
 
 > [!NOTE]
 > Please note, that Oracle, and specifically OKE, cannot offer official support for these scripts. You must provide your own validation and testing in non-production environments.
